@@ -1,40 +1,94 @@
+/* Global Styling */
+:root {
+  --yellow-accent: #fbbf24;
+  --dark-bg: #1e293b;
+  --light-text: #f1f5f9;
+  --card-bg: #2d3748;
+  --border-color: #475569;
+  --success-color: #10b981;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .error-container {
-    text-align: center;
-    max-width: 800px;
-    padding: 60px;
-    background-color: #000;
-    border-radius: 20px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .error-code {
-    font-size: 150px;
-    font-weight: 700;
-    color: #ffd60a;
-    margin-bottom: 30px;
-  }
-  
-  .error-message {
-    font-size: 36px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 40px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: var(--yellow-accent);
+  font-size: 2.5rem;
+}
+
+p {
+  color: var(--light-text);
+  font-size: 1.2rem;
+}
+
+.goals-display {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.goal-card {
+  background-color: var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.goal-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid var(--yellow-accent);
+}
+
+.goal-content {
+  padding: 1.5rem;
+}
+
+.goal-card h3 {
+  color: var(--yellow-accent);
+  margin-bottom: 0.5rem;
+}
+
+.goal-card p {
+  margin-bottom: 1rem;
+}
+
+.goal-card .goal-date {
+  font-size: 0.9rem;
+  color: var(--success-color);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--border-color);
+}
