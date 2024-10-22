@@ -38,46 +38,40 @@ Collaborations Page: Dedicated section for partners or collaborators.
 
 Rules
 
-Routing
+🚏 Routing Guidelines
+Ensure seamless navigation between all pages using a consistent routing framework (e.g., React Router or similar).
 
-Ensure that all pages are properly routed using a consistent routing mechanism (e.g., React Router or another framework).
+Routes should never break when users navigate through the app. Each transition must be smooth and error-free 🚀.
 
-Routes must not break when navigating between pages.
+Use clear and intuitive paths for routes (e.g., /home, /about, /contact, etc.) to enhance the user experience.
 
-Use meaningful and intuitive route paths (e.g., /home, /about, /contact, etc.).
+🔗 Link Functionality
 
+All internal and external links must work properly ✅.
 
-Proper Working Links
+Make sure links to other sections or external websites do not result in a 404 page or a broken state 🛑.
 
-All internal and external links must be functional.
+Double-check every link before pushing changes to prevent broken links 🧹.
 
-Links to other sections, pages, or external websites should not lead to a 404 page or any broken state.
+📝 Text & Formatting Standards
+Text across all pages should be grammatically correct and formatted for clarity 🖋️.
 
-Verify each link thoroughly before pushing changes.
+Use headings, paragraphs, and lists to structure content for easy readability 📑.
 
+Maintain consistency in font styles and sizes to create a uniform and professional appearance across the site 🎨.
 
-Text Guidelines
+⚙️ Page Functionality
 
-Text on all pages must be grammatically correct and appropriately formatted.
+Every page must function smoothly without any console errors or runtime crashes ⚠️.
 
-Use headings, paragraphs, and lists where necessary for readability.
+Test each page on a variety of devices and screen sizes to ensure responsive design 📱💻.
 
-Maintain consistency in font styles and sizes across the pages.
+Report any bugs or issues in the GitHub Issues section, and ensure they are fixed before deployment 🛠️.
 
+🚀 Deployment Checklist
 
-All Pages Must Work
+The application must be deployed and publicly accessible 🌐 through a valid URL.
 
-Every page in the application should be functional without any console errors or runtime crashes.
+Deployment should reflect the latest code from the main branch, and be stable with no routing or page errors 🎯.
 
-Test all pages on multiple devices and screen sizes to ensure responsiveness.
-
-Report any bugs or issues in the GitHub Issues section and ensure they are fixed before deployment.
-
-
-Deployment
-
-The application must be deployed and accessible via a public link.
-
-Ensure that the deployment is stable and follows the latest code from the main branch.
-
-Verify the deployment for proper routing, working links, and error-free pages before considering the project complete.
+Before marking the project as complete, thoroughly test the deployment for working links, functional pages, and proper routing ✅🔗.
