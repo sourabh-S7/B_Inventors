@@ -11,23 +11,38 @@ CSS3 – Styling the layout with separate CSS files for each page.
 Media Queries – Ensuring a responsive design.
 
 📂 Project Structure
-.
-├── index.html        # Home page
-├── about.html        # About Me section
-├── contact.html      # Contact information and form
-├── goals.html        # Personal or professional goals
-├── partners.html     # Collaborations or partnerships
-├── skills.html       # Skills and expertise
-├── work.html         # Work experience or portfolio items
-├── css/              
-│   ├── about.css     
-│   ├── contact.css  
-│   ├── goals.css    
-│   ├── partners.css 
-│   ├── skills.css  
-│   ├── work.css     
-│   └── styles.css   # General styling and shared styles
-└── README.md         # Project documentation (this file)
+
+->index.html – Home page
+
+->about.html – About Me section
+
+->contact.html – Contact information and form
+
+->goals.html – Personal or professional goals
+
+->partners.html – Collaborations or partnerships
+
+->skills.html – Skills and expertise
+
+->work.html – Work experience or portfolio items
+
+css/
+
+->about.css – Styling for the About Me section
+
+->contact.css – Styling for the Contact page
+
+->goals.css – Styling for the Goals page
+
+->partners.css – Styling for the Partners page
+
+->skills.css – Styling for the Skills page
+
+->work.css – Styling for the Work experience/portfolio page
+
+->styles.css – General and shared styles across the site
+
+README.md – Project documentation (this file)
 
 🌟 Features
 Multi-Page Layout: Separate pages for skills, goals, work, and more.
